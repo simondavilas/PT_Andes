@@ -11,7 +11,9 @@ For run the project:
 
 After that...
 .runCommands{
-
+	
+	composer require laravel/ui
+	php artisan ui bootstrap --auth
 	php artisan migrate
 	npm install
 	npm run dev
