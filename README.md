@@ -3,8 +3,8 @@ Prubea Técninca desarrollador PHP
 For run the project:
 
 .env file{
-	Databes used: pt_andes
 
+	Databes used: pt_andes
 	Modify mail values.
 
 }
