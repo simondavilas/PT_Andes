@@ -9,11 +9,12 @@ For run the project:
 
 }
 
-After that run commands{
+After that...
+.runCommands{
 
-php artisan migrate
-npm install
-npm run dev
+	php artisan migrate
+	npm install
+	npm run dev
 
 }
 
