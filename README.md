@@ -9,10 +9,12 @@ For run the project:
 
 }
 
-After that run commands:
+After that run commands{
+
 php artisan migrate
 npm install
 npm run dev
 
+}
 
 And import sql file.
