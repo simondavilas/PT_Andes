@@ -68,10 +68,9 @@ class UserController extends Controller
      * @param  \App\Models\User  $User
      * @return \Illuminate\Http\Response
      */
-    public function update($id)
+    public function update(Request $request, $id)
     {
         $datosUser = request()->except(['_token', '_method']);
-
         user::where('id','=', $id)->update($datosUser);
 
         $user=user::findOrFail($id);
